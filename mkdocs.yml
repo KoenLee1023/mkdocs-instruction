@@ -36,9 +36,7 @@ plugins:
       post_date_format: long
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
-      archive: true
-      archive_name: アーカイブ
-      archive_date_format: yyyy
+      archive: false
       categories: true
       categories_name: カテゴリー
       categories_allowed:
@@ -66,6 +64,7 @@ markdown_extensions:
 repo_url: https://github.com/KoenLee1023/mkdocs-instruction
 repo_name: KoenLee1023/mkdocs-instruction
 edit_uri: edit/main/docs/
+
 
 
 
