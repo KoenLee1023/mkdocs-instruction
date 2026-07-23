@@ -1,5 +1,5 @@
-﻿site_name: お客様向け管理システム サポートサイト
-site_description: お客様向け管理システムの操作案内・更新情報
+﻿site_name: ご利用ガイド
+site_description: システムに関するご案内
 site_url: https://koenlee1023.github.io/mkdocs-instruction/
 
 theme:
@@ -31,8 +31,8 @@ plugins:
   - search:
       lang: ja
   - blog:
-      blog_dir: blog
-      post_dir: "{blog}/posts"
+      blog_dir: information
+      post_dir: "{blog}/updates"
       post_date_format: long
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
@@ -48,8 +48,8 @@ plugins:
 
 nav:
   - ホーム: index.md
-  - ブログ:
-      - blog/index.md
+  - お知らせ:
+      - information/index.md
 
 markdown_extensions:
   - admonition
@@ -66,4 +66,6 @@ markdown_extensions:
 repo_url: https://github.com/KoenLee1023/mkdocs-instruction
 repo_name: KoenLee1023/mkdocs-instruction
 edit_uri: edit/main/docs/
+
+
 
